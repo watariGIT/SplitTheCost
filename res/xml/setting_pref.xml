@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:dialogTitle="@string/dia_log_fraction" android:defaultValue="500" android:title="@string/fraction" android:key="key_fraction" android:entries="@array/list_fraction" android:entryValues="@array/list_fraction_val"/>
+    <CheckBoxPreference android:key="key_roundup" android:title="@string/roundup_title" android:disableDependentsState="false"/>
+    
+
+</PreferenceScreen>
